@@ -1,3 +1,15 @@
+import { PageOne } from './Pages/PageOne';
+import { PageTwo } from './Pages/PageTwo';
+
 export const App = () => {
-  return <div>Find me in src/app.jsx!</div>;
+
+  return (
+    <main>
+      <PageOne />
+      <PageTwo />
+    </main>
+
+  );
 };
+
+export default App;
