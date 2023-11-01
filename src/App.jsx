@@ -1,13 +1,13 @@
-import { PageOne } from './Pages/PageOne';
-import { PageTwo } from './Pages/PageTwo';
+import { BrowserRouter, Routes } from 'react-router-dom';
+import { Routes } from './Routes/Routes';
 
 export const App = () => {
 
   return (
-    <main>
-      <PageOne />
-      <PageTwo />
-    </main>
+    <BrowserRouter>
+      <Routes>{Routes}</Routes>
+
+    </BrowserRouter>
 
   );
 };
