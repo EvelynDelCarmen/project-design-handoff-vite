@@ -8,8 +8,6 @@ export const PageContainer = styled.div`
   height: 100vh; /* Adjust as needed */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 `;
 
 // Content container within the page
