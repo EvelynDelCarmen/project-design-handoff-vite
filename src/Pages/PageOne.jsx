@@ -11,7 +11,7 @@ import Header from '../ReUsableComp/HeaderFolder/Header.jsx';
 const PageOne = () => {
   return (
     <PageContainer>
-      <div style={{ position: 'sticky', top: '0', zIndex: '100' }}>
+      <div>
         <Header />
       </div>
       <ContentContainer>
