@@ -8,6 +8,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    background-color: #E7C2A9;
+    min-height: 100vh;
   }
 
   
