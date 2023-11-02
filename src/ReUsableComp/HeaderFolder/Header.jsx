@@ -12,8 +12,15 @@ const HeaderContainer = styled.header`
 `;
 
 const Logo = styled.img`
-  width: 30px; /* Adjust the width as needed */
-  margin-right: 20px; /* Add spacing between the logo and title */
+display: flex;
+width: 51px;
+height: 51.001px;
+padding: 2.78px 0px 2.782px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-right: 20px;
+flex-shrink: 0;
 `;
 
 
