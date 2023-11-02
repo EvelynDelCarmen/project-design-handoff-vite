@@ -2,11 +2,10 @@
 import {
   PageContainer,
   ContentContainer,
-  Title,
-  Text,
 } from './PageStyles.jsx';
 
 import Header from '../ReUsableComp/HeaderFolder/Header.jsx';
+import BigCircleImage from '../ReUsableComp/Image/BigCircleImage.jsx';
 
 const PageOne = () => {
   return (
@@ -15,8 +14,8 @@ const PageOne = () => {
         <Header />
       </div>
       <ContentContainer>
-        <Title>Mobile First Page</Title>
-        <Text>Welcome to the mobile version of your site.</Text>
+        <BigCircleImage top="50%" left="40%" headerSpace="400px" />
+
       </ContentContainer>
     </PageContainer>
   );

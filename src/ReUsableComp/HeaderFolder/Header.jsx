@@ -33,9 +33,9 @@ const HamburgerMenu = styled.img`
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logo src="src/assets/Mainlogo.png" alt="Logo" />
+      <Logo src="src/assets/items/Mainlogo.png" alt="Logo" />
       <MediumTitle>Sun Yoga Studio</MediumTitle>
-      <HamburgerMenu src="src/assets/Grouphamburger.png" alt="hamburger-menu" />
+      <HamburgerMenu src="src/assets/items/Grouphamburger.png" alt="hamburger-menu" />
     </HeaderContainer>
   );
 };

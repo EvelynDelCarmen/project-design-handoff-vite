@@ -8,6 +8,9 @@ export const PageContainer = styled.div`
   height: 100vh; /* Adjust as needed */
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 `;
 
 // Content container within the page

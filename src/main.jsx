@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <GlobalStyles /> {/* Use the GlobalStyles component */}
+    <GlobalStyles />
     <App />
   </React.StrictMode>
 );
