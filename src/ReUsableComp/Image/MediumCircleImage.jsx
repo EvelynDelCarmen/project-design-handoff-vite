@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import MediumYogaImage from 'src/assets/images/yoga_image_9.png'; // Replace with your image path
+import MediumYogaImage from '../../assets/images/yoga_image_9.png';
 
 const CircleImage = styled.img`
   border-radius: 50%;
@@ -10,23 +10,17 @@ const CircleImage = styled.img`
   /* Add more styles if required */
 `;
 
-const positions = [
-    { top: '2991px', left: '77px', right: '75px' },
-];
+const MediumCircleImage = ({ alt, positionIndex }) => {
+    const positions = [
+        { top: '1356px', right: '228px', left: '24px' }, // Add more positions as needed
+        // Add more position objects as needed
+    ];
 
-const MediumCircleImage = ({ alt }) => {
-    return (
-        <>
-            {positions.map((position, index) => (
-                <CircleImage
-                    key={index}
-                    src={MediumYogaImage}
-                    alt={`${alt}-${index}`}
-                    style={{ top: position.top, left: position.left, right: position.right }}
-                />
-            ))}
-        </>
-    );
+    const { top, left, right } = positions[positionIndex];
+
+    return <CircleImage src={MediumYogaImage} alt={alt} style={{ top, left, right }} />;
 };
 
 export default MediumCircleImage;
+
+
