@@ -7,6 +7,7 @@ import {
 import Header from '../ReUsableComp/HeaderFolder/Header.jsx';
 import BigCircleImage from '../ReUsableComp/Image/BigCircleImage.jsx';
 import SmallCircleImage from '../ReUsableComp/Image/SmallCircleImage.jsx';
+import MediumCircleImage from '../ReUsableComp/Image/MediumCircleImage.jsx';
 
 const PageOne = () => {
   return (
@@ -17,6 +18,7 @@ const PageOne = () => {
       <ContentContainer>
         <BigCircleImage top="50%" left="40%" headerSpace="400px" />
         <SmallCircleImage />
+        <MediumCircleImage />
       </ContentContainer>
     </PageContainer>
   );

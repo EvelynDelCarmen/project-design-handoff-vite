@@ -8,8 +8,8 @@ const CircleImage = styled.img`
   object-fit: cover;
 `;
 
-const SmallCircleImages = ({ src, alt, top, left }) => {
-    return <CircleImage src={src} alt={alt} style={{ top, left }} />;
+const SmallCircleImages = ({ src, alt, top, left, right }) => {
+    return <CircleImage src={src} alt={alt} style={{ top, left, right }} />;
 };
 
 const positions = [
