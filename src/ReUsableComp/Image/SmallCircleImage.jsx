@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const CircleImage = styled.img`
   border-radius: 50%;
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
   position: absolute;
   object-fit: cover;
 `;
@@ -13,10 +13,10 @@ const SmallCircleImages = ({ src, alt, top, left }) => {
 };
 
 const positions = [
-    { top: '1356px', left: '228px', right: '24px' },
-    { top: '1444px', left: '228px' },
-    { top: '2380px', left: '24px' },
-    { top: '2724px', left: '23.8px' },
+    { top: '1356px', right: '228px', left: '24px', },
+    { top: '1444px', right: '24px', left: '228px' },
+    { top: '2380px', right: '211px', left: '41.2px' },
+    { top: '2724px', right: '23.8px', left: '227px' },
     // Add more positions as needed
 
     //The top is vertical and left horizontal
