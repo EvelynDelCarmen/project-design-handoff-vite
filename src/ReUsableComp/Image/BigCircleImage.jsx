@@ -14,6 +14,7 @@ const CircleImage = styled.img
     width: 757px; /* Adjust the width as needed */
     height: 757px; /* Adjust the height as needed */
     position: absolute;
+    object-fit: cover;
     top: ${(props) => props.top};
     left: ${(props) => props.left};
     transform: translate(-50%, -50%); /* Center the content */
@@ -38,6 +39,7 @@ const BigCircleImageContainer = styled.div
 
 const TitleContainer = styled.div`
   position: absolute;
+  object-fit: cover;
   top: 50%; /* Adjust the top value as needed */
   left: 50%; /* Adjust the left value as needed */
   transform: translate(50%, 50%); /* Center the content */
